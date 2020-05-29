@@ -1,0 +1,155 @@
+@import "config";
+@import "utilities";
+
+body {
+    font-family: "Roboto", sans-serif;
+    line-height: 1.6;
+    margin-bottom: 50px;
+}
+
+#bg-img {
+    background: $bg-image no-repeat center right / cover;
+    height: 100vh;
+}
+
+#main-header {
+    position: fixed;
+    height: 50px;
+    top: 1rem;
+    left: 0px;
+    right: 0px;
+    font-size: larger;
+    text-align: center;
+
+    .header-content {
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+    #main-nav {
+        nav {
+            align-items: center;
+            display: inline-block;
+        }
+
+        ul {
+            list-style-type: none;
+            margin-right: 2rem;
+            padding: 0.5rem;
+            overflow: hidden;
+        }
+
+        li {
+            float: right;
+            padding-right: 1rem;
+            margin-right: 1rem;
+        }
+
+
+        a {
+            text-decoration: none;
+            size: 3rem;
+            color: $text-color;
+            text-transform: uppercase;
+            border-bottom: 3px transparent solid;
+            padding-bottom: 0.5rem;
+            transition: border-color 0.5s;
+
+            &:hover {
+                color: $medium-color;
+                text-decoration: none;
+            }
+
+            &.current {
+                border-color: $medium-color;
+            }
+        }
+    }
+}
+
+@media(min-width: 1024px) {
+    .container-1 {
+        display: flex;
+
+    }
+
+    .box-1 {
+        flex: 1;
+        padding-left: 6rem;
+    }
+
+    .box-2 {
+        flex: 6;
+    }
+}
+
+
+
+h1,
+h3,
+#home-pic {
+    line-height: 1.5rem;
+    color: rgb(16, 54, 73);
+
+    &#home-pic {
+        width: 150px;
+        color: #fff;
+        text-transform: uppercase;
+        border-radius: 5%;
+        margin-top: 8rem;
+    }
+
+    &.lg-heading {
+        font-family: "Dancing Script",
+            cursive;
+        font-size: 5rem;
+        text-shadow: 1px 2px $medium-color;
+        margin-top: 12rem;
+    }
+
+    &.sm-heading span {
+        background: rgba(lighten(#444, 2), 0.2);
+        letter-spacing: 1.5px;
+    }
+}
+
+
+
+
+
+
+
+footer {
+    position: fixed;
+    height: 50px;
+    bottom: 5px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+
+    .footer-content {
+        justify-content: space-between;
+        align-items: center;
+        height: 2rem;
+    }
+
+    .social .fab {
+        margin-right: 2rem;
+        line-height: 20px;
+        text-align: center;
+        padding: 0.5rem;
+        color: $medium-color;
+
+        text-decoration: none;
+
+
+
+        &:hover {
+            background-color: teal;
+        }
+    }
+
+
+
+}

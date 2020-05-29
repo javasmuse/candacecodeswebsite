@@ -1,0 +1,101 @@
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.6;
+  margin-bottom: 50px; }
+
+#bg-img {
+  background: url("/dist/images/showcase.JPG") no-repeat center right/cover;
+  height: 100vh; }
+
+#main-header {
+  position: fixed;
+  height: 50px;
+  top: 1rem;
+  left: 0px;
+  right: 0px;
+  font-size: larger;
+  text-align: center; }
+  #main-header .header-content {
+    justify-content: space-between;
+    align-items: center; }
+  #main-header #main-nav nav {
+    align-items: center;
+    display: inline-block; }
+  #main-header #main-nav ul {
+    list-style-type: none;
+    margin-right: 2rem;
+    padding: 0.5rem;
+    overflow: hidden; }
+  #main-header #main-nav li {
+    float: right;
+    padding-right: 1rem;
+    margin-right: 1rem; }
+  #main-header #main-nav a {
+    text-decoration: none;
+    size: 3rem;
+    color: #103649;
+    text-transform: uppercase;
+    border-bottom: 3px transparent solid;
+    padding-bottom: 0.5rem;
+    transition: border-color 0.5s; }
+    #main-header #main-nav a:hover {
+      color: #ccc;
+      text-decoration: none; }
+    #main-header #main-nav a.current {
+      border-color: #ccc; }
+
+@media (min-width: 1024px) {
+  .container-1 {
+    display: flex; }
+  .box-1 {
+    flex: 1;
+    padding-left: 6rem; }
+  .box-2 {
+    flex: 6; } }
+
+h1,
+h3,
+#home-pic {
+  line-height: 1.5rem;
+  color: #103649; }
+  h1#home-pic,
+  h3#home-pic,
+  #home-pic#home-pic {
+    width: 150px;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 5%;
+    margin-top: 8rem; }
+  h1.lg-heading,
+  h3.lg-heading,
+  #home-pic.lg-heading {
+    font-family: "Dancing Script", cursive;
+    font-size: 5rem;
+    text-shadow: 1px 2px #ccc;
+    margin-top: 12rem; }
+  h1.sm-heading span,
+  h3.sm-heading span,
+  #home-pic.sm-heading span {
+    background: rgba(73, 73, 73, 0.2);
+    letter-spacing: 1.5px; }
+
+footer {
+  position: fixed;
+  height: 50px;
+  bottom: 5px;
+  left: 0px;
+  right: 0px;
+  text-align: center; }
+  footer .footer-content {
+    justify-content: space-between;
+    align-items: center;
+    height: 2rem; }
+  footer .social .fab {
+    margin-right: 2rem;
+    line-height: 20px;
+    text-align: center;
+    padding: 0.5rem;
+    color: #ccc;
+    text-decoration: none; }
+    footer .social .fab:hover {
+      background-color: teal; }

@@ -1,0 +1,22 @@
+{
+  "name": "ccportfolio",
+  "version": "1.0.0",
+  "description": "latest portfolio site 2020527",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "candacecodes"
+  },
+  "keywords": [
+    "portfolio",
+    "projects"
+  ],
+  "author": "Candace",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}

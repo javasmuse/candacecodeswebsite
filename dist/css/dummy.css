@@ -1,0 +1,210 @@
+body {
+    font-family: "Roboto", sans-serif;
+    line-height: 1.6;
+    margin-bottom: 50px;
+}
+
+body#bg-img {
+    background: url(/dist/images/showcase.JPG) no-repeat center right / cover;
+    height: 100vh;
+}
+
+nav {
+    float: right;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+    align-items: center;
+    display: inline-block;
+}
+
+h1,
+h3 {
+    line-height: 1.5rem;
+    color: rgb(16, 54, 73);
+    text-align: left;
+    padding-top: 7rem;
+    margin-left: 7rem;
+}
+
+h1 .lg-heading {
+    font-family: "Dancing Script",
+        cursive;
+    font-size: 5rem;
+    text-shadow: #fff, 5px 5px 7px;
+    margin-top: 2rem;
+    margin-bottom: 2.5rem;
+}
+
+h3 .sm-heading span {
+    background: rgba(lighten(#444, 2), 0.2);
+    letter-spacing: 1.5px;
+}
+/* 
+/* BT */
+@import "config";
+@import "utilities";
+
+// General Styles
+// * {
+//     margin: 0;
+//     padding: 0;
+// }
+
+body {
+    font-family: "Roboto", sans-serif;
+    line-height: 1.6;
+    margin-bottom: 50px;
+}
+
+
+// Main Nav
+
+
+
+#bg-img {
+    background: $bg-image no-repeat center right / cover;
+    height: 100vh;
+    // align-items: center;
+}
+
+nav {
+    float: right;
+    align-items: center;
+    display: inline-block;
+
+}
+
+// ul {
+//     list-style-type: none;
+//     margin: 0;
+//     padding: 0;
+//     overflow: hidden;
+// }
+
+// li {
+//     float: left;
+// }
+
+// li a {
+//     display: block;
+//     padding: 8px;
+//     background-color: #dddddd;
+// }
+
+
+// a {
+//     text-decoration: none;
+//     color: #fff;
+//     text-shadow: 2px;
+//     text-transform: uppercase;
+//     border-bottom: 3px transparent solid;
+//     padding-bottom: 0.5rem;
+//     transition: border-color 0.5s;
+
+//     &:hover {
+//         border-color: $medium-color;
+
+//         &.current {
+//             border-color: $text-gold;
+//         }
+//     }
+// }
+
+
+// #main-nav ul {
+//     list-style: none;
+//     margin: 0;
+//     padding: 0;
+//     overflow: hidden;
+//     display: block;
+//     background-color: #dddddd;
+// }
+
+
+
+h1,
+h3 {
+    line-height: 1.5rem;
+    color: $text-color;
+    text-align: left;
+    margin-left: 7rem;
+
+    &.lg-heading {
+        font-family: "Dancing Script",
+            cursive;
+        font-size: 5rem;
+        text-shadow: #fff, 5px 5px 7px;
+        margin-top: 2rem;
+        margin-bottom: 2.5rem;
+    }
+
+    &.sm-heading span {
+        background: rgba(lighten($primary-color, 2), 0.2);
+        letter-spacing: 1.5px;
+    }
+}
+
+// process-icon
+&-icon {
+    border-radius: 50%;
+    background-color: $dark-color;
+    color: #fff;
+    padding: 2rem;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    position: relative;
+    transition: all 1s;
+
+    &:hover {
+        background: $main-color;
+        width: 90px;
+        height: 90px;
+        line-height: 90px;
+
+        .process-step {
+            background: $dark-color;
+            color: set-text-color($dark-color);
+        }
+    }
+}
+
+// Footer
+#main-footer {
+    background: $text-gold;
+    color: #fff;
+    letter-spacing: 1px;
+    height: 2rem;
+    // align-items: center;
+    position: fixed;
+    margin-bottom: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+
+    .footer-content {
+        display: flex;
+        justify-content: space-between;
+        height: 2rem;
+        align-items: center;
+    }
+
+    .social .fab {
+        margin-right: 1rem;
+        border: 2px #fff solid;
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        line-height: 20px;
+        text-align: center;
+        padding: 0.5rem;
+    }
+
+    &:hover {
+        background-color: $text-color;
+    }
+} */
