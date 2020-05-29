@@ -9,7 +9,6 @@ body {
 
 #bg-img {
     background: $bg-image no-repeat center right / cover;
-    height: 100vh;
 }
 
 #main-header {
@@ -68,7 +67,7 @@ body {
     }
 }
 
-@media(min-width: 1024px) {
+@media(min-width: 720px) {
     .container-1 {
         display: flex;
 
@@ -104,7 +103,7 @@ h3,
         font-family: "Dancing Script",
             cursive;
         font-size: 5rem;
-        text-shadow: 1px 2px $medium-color;
+        text-shadow: 1px 1px $medium-color;
         margin-top: 12rem;
     }
 
